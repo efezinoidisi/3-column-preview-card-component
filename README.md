@@ -23,11 +23,17 @@ Users should be able to:
 - See hover states for interactive elements
 
 ### Screenshot
+- Desktop design
+![127 0 0 1_5500_index html (3)](https://user-images.githubusercontent.com/105175740/174123719-b4a2054b-3d7f-40c8-bbd1-c3d062ae679a.png)
+
+-Mobile design
+![127 0 0 1_5500_index html(iPhone SE)](https://user-images.githubusercontent.com/105175740/174123780-ff59be54-300b-467b-be7d-e1c0aaf83e01.png)
+
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [](https://github.com/efezinoidisi/3-column-preview-card-component)
+- Live Site URL: [](https://efezinoidisi.github.io/3-column-preview-card-component/)
 
 ## My process
 
