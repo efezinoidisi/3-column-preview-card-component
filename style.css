@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+main {
+
+    width: 70%;
+    height: 600px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxes {
+    width: 100%;
+    height: 500px;
+    font-size: 1em;
+    padding: 50px 20px;
+    line-height: 40px;
+}
+
+.boxes:first-child {
+    border: none;
+    border-radius: 10px 0 0 10px;
+}
+
+.boxes:last-child {
+    border: none;
+    border-radius: 0 10px 10px 0;
+}
+
+.boxes img {
+    width: 30%;
+}
+
+.boxes h2 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 2em;
+    font-weight: 700;
+    margin: 20px 0;
+    color: hsl(0, 0%, 95%);
+}
+
+.boxes p {
+    line-height: 30px;
+    font-size: 1em;
+    margin: 30px 0 70px;
+    color: hsla(0, 0%, 100%, 0.75)
+}
+
+#sedan {
+    background-color: hsl(31, 77%, 52%);
+}
+
+#suv {
+    background-color: hsl(184, 100%, 22%);
+}
+
+#luxury {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.box-button {
+    width: 60%;
+    padding: 20px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+.box-button:hover {
+    border: 3px solid hsla(0, 0%, 100%, 0.75);
+    background-color: inherit;
+}
+
+#sedan .box-button {
+    color: hsl(31, 77%, 52%);
+}
+
+#suv .box-button {
+    color: hsl(184, 100%, 22%);
+}
+
+#luxury .box-button {
+    color: hsl(179, 100%, 13%);
+}
+
+#sedan .box-button:hover,
+#suv .box-button:hover,
+#luxury .box-button:hover {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.attribution {
+    display: block;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width:1200px) and (min-width:600px) {
+
+    main {
+        width: 100%;
+        padding: 50px 20px;
+    }
+
+    .boxes {
+        padding: 30px;
+    }
+
+    .box-button {
+        width: 70%;
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width:600px) {
+
+
+    main {
+        display: block;
+        width: 100%;
+        height: max-content;
+        padding: 40px 30px;
+    }
+
+    .boxes {
+        width: 100%;
+        height: 450px;
+    }
+
+    .boxes:first-child {
+        border: none;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .boxes:last-child {
+        border: none;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .boxes p {
+        margin-bottom: 25px;
+    }
+
+    .box-button {
+        width: 70%;
+        font-size: 1em;
+        padding: 15px;
+    }
+
+    .attribution {
+        margin-top: 10px;
+    }
+}
